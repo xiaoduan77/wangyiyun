@@ -1,0 +1,354 @@
+body{
+    background-color: pink;
+}
+.main{
+    width: 1008px;
+    height: 550px;
+    background-color: #fff;
+    position: relative;
+    margin: 10px auto;
+}
+/* 顶部内容 */
+.top{
+    height: 50px;
+    background-color: #ec4141;
+}
+.top-main{
+    display: flex;
+    position: absolute;
+    width: 948px;
+    height: 30px;
+    /* background-color: greenyellow; */
+    margin-left: 25px;
+    margin-top: 8px;
+    
+}
+.top a .logo{
+   width: 30px;
+   height: 30px;
+   border: 0px solid #fff;
+   border-radius: 50%;
+   vertical-align:middle;
+   
+}
+.top a h2{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff;
+    line-height: 30px;
+}
+.top .top2{
+    display: flex;
+    width: 260px;
+    /* background-color: aqua; */
+    margin-left: 100px;
+}
+.top .top2 .circle1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #e63f3f;
+    /* background-color: pink; */
+    border:0px solid #e63f3f;
+    border-radius: 50%;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.top .top2 .circle1:nth-child(2){
+    margin-left: 5px;
+}
+.top .top2 .circle1 .iconfont{
+    font-size: 12px;
+    z-index: 2;
+    color: #ef6e6e;
+}
+.top .top2 .search{
+    display: flex;
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    margin: 0px auto;
+    margin-left: 60px;
+    border:0px solid #e63f3f;
+    border-radius: 30px;
+    background-color: #e13e3e;
+    color:#fff;
+    line-height: 30px;
+}
+.top .top2 .search .iconfont{
+    padding-left: 10px;
+    font-size: 14px;
+    color:#f9d8d8;
+    
+}
+.top .top2 .search .txt-search{
+    width: 120px;
+    height: 29px;
+    background-color: #e13e3e;
+    color:#f9d8d8;
+    font-size: 12px;
+    text-indent: 5px;
+}
+.top .top2 .search .txt-search::placeholder{
+    color:#e66363;
+}
+.top .top2 .maikefeng{
+    margin-left: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: #e13e3e;
+    margin-left: 26px;
+    border: 0px solid #e13e3e;
+    border-radius: 50%;
+    margin-left: 179px;
+    color:#f9d8d8;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+.top .top2 .maikefeng i{
+    font-size: 18px;
+}
+.top .top3{
+    display: flex;
+    width: 350px;
+    height: 30px;
+    margin-left: 100px;
+    /* background-color: aquamarine; */
+    font-size: 18px;
+    color:#e13e3e;
+    line-height: 30px;
+}
+.top .top3 i:first-child{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 30px;
+    vertical-align: middle;
+    color:#e13e3e;
+    /* margin-bottom: 2px; */
+    /* display: flex; */
+}
+.top .top3 .user-name,
+.top .top3 .vip{
+    font-size: 12px;
+    color:#fac8c8;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 7px;
+}
+.top .top3 .user-name:hover,
+.top .top3 .vip:hover{
+    color:#fff;
+}
+.top .top3 .user-msg{
+    color:#f8baba;
+    font-size: 4px;
+    padding-left: 5px;
+
+}
+.top .top3 .user-name .icon-arrow-down-filling{
+    font-size: 8px;
+    color:#fbd9d9;
+    cursor: pointer;
+}
+.top .top3 .icon-setting,
+.top .top3 .icon-clothes,
+.top .top3 .icon-email{
+    font-size:20px ;
+    color:#fbd9d9;
+    padding-left: 15px;
+    top:5px;
+    cursor: pointer;
+}
+.top .top3 .icon-setting:hover,
+.top .top3 .icon-clothes:hover,
+.top .top3 .icon-email:hover{
+    color:#fff;
+}
+.user-msg1{
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 5%);
+    position:absolute;
+    left: 580px;
+    display: none;
+    z-index: 9999;
+}
+.user-msg1 .user1{
+    height: 120px;
+    border-bottom: 1px solid #ededed;
+}
+.user-msg1 .user1 ul{
+    display:flex;
+    justify-content: space-around;
+}
+.user-msg1 .user1 ul li a {
+    display: block;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.user-msg1 .user1 ul li a span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.user-msg1 ul {
+    margin: 3px 15px 0px 22px;
+}
+.user-msg1 .user1 ul li a p{
+    font-size: 12px;
+}
+.user-msg1 .user1 .qiandao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #d9d9d9;
+    border-radius: 30px;
+}
+.user-msg1 .user1 .qiandao i{
+    font-size: 14px;
+}
+.user-msg1 .user2{
+    height: 110px;
+    border-bottom: 1px solid #ededed;
+}
+.user-msg1 .user2 ul{
+     margin: 3px 15px 0px 25px;
+}
+.user-msg1 .user2 ul li{
+    padding-top: 10px;
+}
+.user-msg1 .user2 ul li a span{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.user-msg1 .icon-arrow-right{
+    position: absolute;
+    right: 5px;
+    font-size: 12px;
+    color:#9f9e9e;
+}
+.red-cricle{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ec4141;
+}
+.user-msg1 .user2 ul li a .buy{
+    position: absolute;
+    color:#ccc;
+    z-index: 2;
+    font-size: 8px;
+    right: 20px;
+    padding-top: 2px;
+}
+.user3{
+    height: 70px;
+    border-bottom: 1px solid #ededed;
+}
+.user3 ul li .iconfont:nth-child(1){
+    font-size: 22px;
+}
+.user3 ul li span{
+    font-size: 14px;
+}
+.user4 ul{
+    margin-left: 26px;
+    padding-top: 5px;
+}
+.user4 ul li span{
+   font-size: 14px;
+}
+.side-nav{
+    position: absolute;
+    width: 200px;
+    height: 490px;
+    border-right: 1px solid #ededed;
+    padding: 10px 0px 0px 20px;
+    overflow-x:scroll;
+}
+.side-nav::-webkit-scrollbar{
+    width: 4px;
+}
+.side-nav:hover::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    -webkit-box-shadow:inset 0 0 5px rgba(124, 117, 117, 0.2);
+    background:rgba(0,0,0,0.2);
+}
+.side-nav .find{
+    width: 170px;
+    height: 35px;
+    background-color: #f6f6f7;
+}
+.side-nav .find h3{
+    padding:5px 0px 0px 10px
+}
+.side-nav ul li{
+    padding-top: 15px;
+    padding-left: 9px;
+}
+.side-nav ul li:nth-child(1){
+    padding-top: 8px;
+}
+.w{
+    padding-left: 9px;
+}
+.side-nav h1{
+    font-size: 12px;
+    font-weight: 300;
+    color:#999;
+    padding-top: 20px;
+}
+
+.side-nav .mySong li span{
+    font-size:14px;
+    padding-left: 5px;
+}
+.side-nav .mySong li .icon-xiazai,
+.side-nav .mySong li .icon-yun_o{
+    font-weight:600;
+}
+.right-content{
+    position: relative;
+    margin-left: 230px;
+}
+.right-content .nav{
+    z-index: 999;
+    margin-top: -40px;
+}
+.right-content .nav li{
+    float: left;
+    padding: 15px 20px 0px 20px;
+    color:#373737;
+}
+.right-content .nav li a:hover{
+    color:black;
+}
+.active{
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 3px solid #ec4141;
+    border-radius: 2px;
+    padding-top: -5px;
+}
+.banner{
+    position: relative;
+    border-radius: 10px;
+    width: 600px;
+    height: 180px;
+}
+
+

@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3366808 */
+  src: url('iconfont.woff2?t=1651233938431') format('woff2'),
+       url('iconfont.woff?t=1651233938431') format('woff'),
+       url('iconfont.ttf?t=1651233938431') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bofang:before {
+  content: "\e6ad";
+}
+
+.icon-caozuo-xunhuan1:before {
+  content: "\e62b";
+}
+
+.icon-tianjia:before {
+  content: "\e622";
+}
+
+.icon-music_playlist:before {
+  content: "\e61b";
+}
+
+.icon-bofang1:before {
+  content: "\e624";
+}
+
+.icon-xiazai:before {
+  content: "\e659";
+}
+
+.icon-liebiao_o:before {
+  content: "\eb7c";
+}
+
+.icon-xinzengdaohangliebiao_o:before {
+  content: "\eb86";
+}
+
+.icon-yun_o:before {
+  content: "\ebb3";
+}
+
+.icon-24gl-volumeZero:before {
+  content: "\ea0d";
+}
+
+.icon-24gl-repeat2:before {
+  content: "\ea75";
+}
+
+.icon-geciweidianji:before {
+  content: "\e727";
+}
+
+.icon-yinle:before {
+  content: "\e61c";
+}
+
+.icon-icon_xindong:before {
+  content: "\e61a";
+}
+
+.icon-shangpin:before {
+  content: "\e619";
+}
+
+.icon-huiyuan:before {
+  content: "\e643";
+}
+
+.icon-tuichudenglu:before {
+  content: "\e647";
+}
+
+.icon-gerentouxiang_o:before {
+  content: "\ebac";
+}
+
+.icon-qiandao_o:before {
+  content: "\ebad";
+}
+
+.icon-bangding:before {
+  content: "\e65c";
+}
+
+.icon-huiyuan1:before {
+  content: "\e652";
+}
+
+.icon-calendar:before {
+  content: "\e667";
+}
+
+.icon-user:before {
+  content: "\e682";
+}
+
+.icon-arrow-right:before {
+  content: "\e665";
+}
+
+.icon-email:before {
+  content: "\e66f";
+}
+
+.icon-mic:before {
+  content: "\e678";
+}
+
+.icon-search:before {
+  content: "\e67d";
+}
+
+.icon-setting:before {
+  content: "\e67e";
+}
+
+.icon-arrow-left-bold:before {
+  content: "\e685";
+}
+
+.icon-arrow-down-filling:before {
+  content: "\e688";
+}
+
+.icon-clothes:before {
+  content: "\e8c7";
+}
+

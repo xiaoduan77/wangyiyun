@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "网易云",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "网易云"
+	}
+}
